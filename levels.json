@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "level_name": "Bloodbath",
+        "difficulty": "Extreme Demon",
+        "creator": "JaysRante",
+        "youtube_id": "Xzb7apPvDos",
+        "gdbrowser_id": "10565740",
+        "date": "2025-11-11 14:59:57",
+        "top_rank": 1,
+        "comments": [
+            {
+                "username": "JaysRante",
+                "text": "hi",
+                "date": "2025-11-14 23:21:51"
+            },
+            {
+                "username": "JaysRante",
+                "text": "Test.",
+                "date": "2025-11-14 23:52:00"
+            }
+        ],
+        "hidden": false
+    }
+]

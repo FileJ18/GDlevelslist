@@ -1,0 +1,148 @@
+/* ========================================
+   DARKNESS LIST - GLOBAL STYLES
+   ======================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #000;
+    color: #eee;
+    line-height: 1.6;
+}
+
+body {
+    background: linear-gradient(to bottom, #0a0a0a, #000);
+    min-height: 100vh;
+    padding: 20px 0;
+}
+
+/* Container - Centers content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Headings */
+h1 {
+    font-size: 2.2em;
+    text-align: center;
+    color: #ff6666;
+    margin-bottom: 15px;
+    text-shadow: 0 2px 6px rgba(255, 102, 102, 0.3);
+    font-weight: 700;
+}
+
+/* Links */
+a {
+    color: #ff6666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+a:hover {
+    color: #ff9999;
+    text-decoration: underline;
+}
+
+/* Buttons */
+button, .logout-btn, .delete-btn {
+    background: #cc0000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+button:hover, .logout-btn:hover, .delete-btn:hover {
+    background: #990000;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(153,0,0,0.4);
+}
+
+/* Forms */
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #111;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 6px;
+    font-size: 1em;
+}
+input:focus {
+    outline: none;
+    border-color: #ff6666;
+    box-shadow: 0 0 8px rgba(255,102,102,0.3);
+}
+
+/* Success / Error Messages */
+.success {
+    background: #002200;
+    color: #66ff66;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #004400;
+}
+.error {
+    background: #220000;
+    color: #ff6666;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #440000;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+th {
+    background: #222;
+    color: #ff6666;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+td {
+    padding: 10px 12px;
+    border-bottom: 1px solid #333;
+}
+tr:hover {
+    background: #1a1a1a;
+}
+
+/* Responsive Grid (for levels.php) */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    h1 {
+        font-size: 1.8em;
+    }
+}
+
+/* Utility */
+.text-center { text-align: center; }
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.small { font-size: 0.85em; color: #aaa; }
